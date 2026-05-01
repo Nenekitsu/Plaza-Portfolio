@@ -1,0 +1,284 @@
+body {
+  font-family: "Outfit", Helvatica, sans-serif;
+  font-optical-sizing: auto;
+  background-color: #50c878;
+}
+
+
+nav{
+  display: flex;
+  background-color: #36454f;
+  justify-content: space-between;
+  padding-right: 30px ;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 10px;
+  box-shadow: #ffd700 0px 10px 20px;
+}
+
+section{
+  margin-bottom: 20vh;
+
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  font-size: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav img {
+  width: 70px;
+  height: 70px;
+  border:10px solid #36454f;
+  border-radius: 1000px;
+}
+
+#home .main{
+  display: flex;
+  margin-top: 5%;
+  
+  
+}
+
+#home .main .left img{
+  border: 10px solid #36454f ;
+  width: 50%;
+  border-radius: 50%;
+}
+
+#home .main .left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #008080;
+  padding: 20px;
+   height: 100vh;
+   width: 50%;
+}
+
+#home .main .right{
+  background-color: #50c878;
+   padding: 30px;
+   width: 50%;
+   display: flex;
+   align-items: center;
+   font-size: 5vh;
+}
+
+#home .main .right h2{
+  font-size: 200%;
+}
+
+#about_me div{
+  display: flex;
+  background-color: #50c878;
+  justify-content: center;
+  color: white;
+}
+
+#about_me .left{
+  background-color: #1e1e1e;
+  padding: 10vh;
+  align-items: center;
+  justify-content: flex-start;
+  width: 50%;
+  flex-direction: column;
+  font-size: 30px;
+}
+
+#about_me .left img{
+  height: 50%;
+  border-radius: 50%;
+  border: 10px solid #36454f ;
+}
+
+#about_me .left p{
+  margin: 20px;
+  margin-top: 30px;
+}
+
+#about_me .right{
+  background-color: #008080;
+  padding: 20px;
+  size: 30vh;
+}
+
+#about_me .right ul{
+    list-style: none;
+    padding-top: 5%;
+}
+
+#about_me .right ul li{
+  margin: 10%;
+  font-size: 20px;
+}
+
+#offers{
+  background-color: #36454f;
+  height: 100vh;
+padding-bottom: 20vh;
+}
+
+
+
+#offers h2{
+  display: flex;
+  justify-content: center;
+  padding: 10vh;
+  color: white;
+  font-size: 50px;
+  padding-top: 20vh;
+  
+}
+
+#offers div ul {
+  display: flex;
+  justify-content: center;  /* centers items horizontally */
+  gap: 90px;
+  list-style: none;
+  padding: 30px;
+}
+
+#offers div ul li {
+  display: flex;
+  flex-direction: column;   /* stacks image on top of text */
+  align-items: center;      /* centers both image and text */
+  text-align: center;
+}
+
+#offers div ul li img {
+  width: 30vh;
+  height: 30vh;
+  margin-bottom: 15px;
+}
+
+#offers div ul li p {
+  color: white;
+  font-size: 30px;
+}
+  
+#additional{
+  background-color: #36454f;
+  height: 100vh;
+ 
+}
+
+#additional h2{
+  display: flex;
+  justify-content: center;
+  padding: 10vh;
+  color: white;
+  font-size: 50px;
+}
+
+#additional div{
+   display: flex;
+  flex-direction: column;   /* stacks image on top of text */
+  align-items: center;      /* centers both image and text */
+  text-align: center;
+}
+
+#additional div img{
+ width: 30vh;
+  height: 30vh;
+  margin-bottom: 10px;
+}
+
+#additional div p{
+  display: flex;
+  justify-content: center;
+  padding: 10vh;
+  color: white;
+  font-size: 30px;
+}
+
+#works .tag{
+  background-color: #36454f;
+  padding: 10vh;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 5vh;
+}
+
+#works .html_work{
+  display: flex;
+  font-size: 10vh;
+  justify-content: center;
+  
+}
+
+#works .html_work h3{
+  background-color: #36454f;
+  padding: 20px;
+  color: white;
+}
+
+#works .web {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  gap: 30px;
+}
+
+#works .web img{
+  
+  height: 50vh;
+  gap: 20px;
+}
+
+footer{
+  background-color: #36454f;
+  height: 60vh;
+}
+
+footer h2{
+  display: flex;
+  justify-content: center;
+  padding: 10vh;
+  color: white;
+  font-size: 40px;
+  
+}
+
+footer div ul {
+  display: flex;
+  justify-content: center;  /* centers items horizontally */
+  gap: 90px;
+  list-style: none;
+  padding: 10px;
+
+}
+
+footer div ul li {
+  display: flex;
+  flex-direction: column;   /* stacks image on top of text */
+  align-items: center;      /* centers both image and text */
+  text-align: center;
+}
+
+footer div ul li img {
+  width: 15vh;
+  height: 15vh;
+  margin-bottom: 5px;
+}
+
+footer div ul li p {
+  color: white;
+  font-size: 20px;
+}
+
+footer div ul li a{
+  text-decoration: none;
+}
