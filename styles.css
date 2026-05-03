@@ -76,6 +76,10 @@ nav img {
    font-size: 5vh;
 }
 
+#home .main .right h1{
+  color: wheat;
+}
+
 #home .main .right h2{
   font-size: 200%;
 }
@@ -167,7 +171,8 @@ padding-bottom: 20vh;
   color: white;
   font-size: 30px;
 }
-  
+
+/*
 #additional{
   background-color: #36454f;
   height: 100vh;
@@ -184,8 +189,8 @@ padding-bottom: 20vh;
 
 #additional div{
    display: flex;
-  flex-direction: column;   /* stacks image on top of text */
-  align-items: center;      /* centers both image and text */
+  flex-direction: column;   
+  align-items: center;      
   text-align: center;
 }
 
@@ -203,6 +208,8 @@ padding-bottom: 20vh;
   font-size: 30px;
 }
 
+*/
+
 #works .tag{
   background-color: #36454f;
   padding: 10vh;
@@ -216,6 +223,7 @@ padding-bottom: 20vh;
   display: flex;
   font-size: 10vh;
   justify-content: center;
+  
   
 }
 
@@ -236,6 +244,18 @@ padding-bottom: 20vh;
   
   height: 50vh;
   gap: 20px;
+}
+
+#works .description{
+  display: flex;
+  justify-content: center;
+}
+
+#works .description p{
+  background-color: #36454f ;
+  font-size: 5vh;
+  padding: 2vh;
+  color: white;
 }
 
 footer{
